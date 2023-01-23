@@ -7,10 +7,10 @@ module.exports = {
     '@apply relative block overflow-hidden rounded-lg border border-gray-100 p-8 bg-base-100': true
   },
   '.card-border': {
-    '@apply absolute inset-x-0 bottom-0 h-2': true
+    '@apply absolute inset-x-0 bottom-0 h-2 bg-primary': true
   },
   '.border-gradient': {
-    '@apply bg-gradient-to-r from-primary via-accent to-secondary': true
+    '@apply bg-gradient-to-r from-primary to-secondary': true
   },
   '.card-title': {
     '@apply text-xl font-bold text-neutral': true
