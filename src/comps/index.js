@@ -2,8 +2,10 @@
  * Component Utilities
  */
 
-const gradient = require('./gradient.js');
+const gradient = require('./gradient');
+const card = require('./card');
 
 module.exports = {
-  ...gradient
+  ...gradient,
+  ...card
 };
