@@ -15,5 +15,5 @@ const fn = ({ theme, addBase, addComponents }) => {
 
 module.exports = plugin(fn, {
   theme: { extend: { colors } },
-  variants: [ 'responsive' ]
+  variants: [ 'responsive', 'hover' ]
 });
