@@ -19,13 +19,13 @@ module.exports = {
 
 
   '.btn-gradient': { '@apply border-none hover:text-base-100 bg-gradient-to-r from-neutral to-base-100 hover:bg-gradient-to-br shadow-lg shadow-neutral/50': true },
-  '.btn-gradient.btn-primary': { '@apply from-primary shadow-primary/50': true },
-  '.btn-gradient.btn-secondary': { '@apply from-secondary shadow-primary/50': true },
-  '.btn-gradient.btn-accent': { '@apply from-accent shadow-accent/50': true },
-  '.btn-gradient.btn-info': { '@apply from-info shadow-info/50': true },
-  '.btn-gradient.btn-success': { '@apply from-success shadow-success/50': true },
-  '.btn-gradient.btn-warning': { '@apply from-warning shadow-warning/50': true },
-  '.btn-gradient.btn-error': { '@apply from-error shadow-error/50': true },
+  '.btn-gradient.btn-primary': { '@apply from-primary to-base-100 shadow-primary/50': true },
+  '.btn-gradient.btn-secondary': { '@apply from-secondary to-base-100 shadow-primary/50': true },
+  '.btn-gradient.btn-accent': { '@apply from-accent to-base-100 shadow-accent/50': true },
+  '.btn-gradient.btn-info': { '@apply from-info to-base-100 shadow-info/50': true },
+  '.btn-gradient.btn-success': { '@apply from-success to-base-100 shadow-success/50': true },
+  '.btn-gradient.btn-warning': { '@apply from-warning to-base-100 shadow-warning/50': true },
+  '.btn-gradient.btn-error': { '@apply from-error to-base-100 shadow-error/50': true },
 
 
 };
